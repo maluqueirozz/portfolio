@@ -12,8 +12,8 @@ main{
     margin: 1%;
     border-radius: 5px;
     padding: 30px;
-    max-width: fit-content;
-   align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
 }
 img{
     width: 100%;
@@ -23,7 +23,7 @@ img{
 }
 .hobbies{
     font-size: 1.1em;
-    text-decoration: solid;
+    text-decoration: none;
 }
 
 #title{
@@ -33,11 +33,12 @@ img{
     margin-top: 10px;
 }
 h1{
-    font-weight: strong;
+    font-weight: bold;
     color: rgb(2, 2, 59);
 }
 h2{
     color: rgb(3, 3, 87);
+    font-size: 1.8em;
 }
 #subtitle{
     color:rgb(3, 3, 87);
