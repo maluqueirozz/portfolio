@@ -1,12 +1,77 @@
+body{
+    font-family: 'Arial', sans-serif;
+    color:black;
+    background-color: #d1d1ff;
+}
+header{
+    text-align: center;
+}
+main{
+    background-color: rgb(141, 141, 255);
+    text-align: auto;
+    margin: 1%;
+    border-radius: 5px;
+    padding: 30px;
+}
+img{
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 7px;
+}
+
 h1{
-    color:blue;
-    font-weight: bolder;
+    font-size: strong;
 }
 h2{
-    font-family: 'Bell MT', serif;
-    color: black;
+    color: rgb(3, 3, 87);
 }
-#h2{
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
+#subtitle{
+    color:rgb(3, 3, 87);
+    font-size: 1.2em;
+}
+#sobre-mim{
+    font-size: 1.1em;
+    line-height: 1.5;
+    margin-top: 10px;
+    margin: 15px;
+    text-align: justify;
+}
+.container-flex {
+  display: flex;
+  align-items: center; 
+  gap: 20px; 
+    justify-content: center;
+}
+
+.container-flex img {
+  max-width: 300px; /* Limita a largura da imagem */
+  height: auto; /* Mantém a proporção da imagem */
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+a:hover{
+    color: red
+}
+footer{
+    background-color: rgb(3, 3, 87);
+    text-align: center;
+    padding: 5px;
+    color: white;
+    justify-content: center;
+    margin: 1%;
+    border-radius: 5px;
+}
+li, p{
+    font-size: large;
+}
+
+section{
+    
 }
